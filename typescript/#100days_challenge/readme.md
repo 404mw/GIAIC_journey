@@ -1,1 +1,1 @@
-www.google.com visit google
+[www.google.com] visit google
