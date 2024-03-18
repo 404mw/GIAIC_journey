@@ -26,7 +26,7 @@ if (fruits.includes("Melon")) {
 
 
 
-//
+// custom message to admin and users
 
 let usernames: string[] = ["M.W.", "Ebad", "Abdullah", "Jawwad", "Aslam"];
 

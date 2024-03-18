@@ -24,7 +24,7 @@ if (fruits.includes("Melon")) {
 if (fruits.includes("Mango")) {
     console.log("You really like Mangoes");
 }
-//
+// custom message to admin and users
 let usernames = ["M.W.", "Ebad", "Abdullah", "Jawwad", "Aslam"];
 usernames.forEach(username => {
     if (username === "M.W.") {
