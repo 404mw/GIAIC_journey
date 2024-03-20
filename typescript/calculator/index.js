@@ -1,4 +1,5 @@
 #! /usr/bin/env node
+// SHA-BANG
 import inquirer from "inquirer";
 let answer = await inquirer.prompt([
     { message: "Enter your first number", type: "number", name: "firstNumber" },
