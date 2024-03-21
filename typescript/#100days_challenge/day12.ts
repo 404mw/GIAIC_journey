@@ -20,10 +20,9 @@ Animal.forEach(Animal => {
 // Create a function
 
 function make_shirt(
-    size: string = "XL",
-    message: string = "And life sucks") {
+    size: string,
+    message: string) {
     console.log(`Making a`, size, `t-shirt with the message`, message, `printed on it.`);
 }
 
 make_shirt("medium", "Code is Life");
-make_shirt();
