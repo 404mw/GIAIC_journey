@@ -21,6 +21,6 @@ if(answers.userGuessednumber === randomnumber ){
 } else{
     console.log("Please touch some grass, The number was", randomnumber);
 }
-console.log("\nHow was your experience? do let me know at discord.gg/m.w.");
+console.log("\nHow was your experience? do let me know at discord/m.w.");
 
 
