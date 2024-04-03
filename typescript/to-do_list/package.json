@@ -1,7 +1,7 @@
 {
-  "name": "404mw_guess-a-number",
-  "version": "1.0.2",
-  "description": "This is a cli based number guessing game",
+  "name": "404mw_todo-list",
+  "version": "1.0.4",
+  "description": "This is a cli based To-Do list",
   "main": "index.js",
   "type": "module",
   "bin":"index.js",

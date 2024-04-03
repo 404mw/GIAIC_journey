@@ -1,3 +1,4 @@
+#! /usr/bin/env node
 import inquirer from "inquirer";
 let todos = [];
 let condition = true;
@@ -6,7 +7,7 @@ while (condition) {
         {
             name: "todo",
             type: "input",
-            message: "what you want to add in your Todos?"
+            message: "what do you want to add in your To-dos?"
         },
         {
             name: "addMore",
