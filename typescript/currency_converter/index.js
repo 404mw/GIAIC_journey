@@ -8,13 +8,13 @@ const currency = {
 let userAnswer = await inquirer.prompt([
     {
         name: "from",
-        message: "Enter from currency",
+        message: "Select the currency you are converting from",
         type: "list",
         choices: ["USD", "EUR", "INR", "PKR"]
     },
     {
         name: "to",
-        message: "Enter to currency",
+        message: "Select the currency you are converting to",
         type: "list",
         choices: ["USD", "EUR", "INR", "PKR"]
     },
