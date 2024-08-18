@@ -1,5 +1,6 @@
 "use strict";
 // default values in function
+Object.defineProperty(exports, "__esModule", { value: true });
 function makeshirt(size = "large", message = "I love TypeScript") {
     console.log("Making a", size, "t-shirt with the message", message, "printed on it.");
 }

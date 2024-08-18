@@ -1,5 +1,6 @@
 "use strict";
 // print a Quote
+Object.defineProperty(exports, "__esModule", { value: true });
 console.log('"ABC said,"Every setback is an opportunity for a comeback story.""');
 // print a Quote via variables
 let Name = '"ABC ';

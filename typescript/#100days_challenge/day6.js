@@ -1,4 +1,5 @@
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 let guest = ["Krate", "Spilph", "Onteo"];
 console.log("Great news! I found a bigger dinner table!");
 // Adding more guests

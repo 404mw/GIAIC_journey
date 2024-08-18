@@ -1,5 +1,6 @@
 "use strict";
 // create a comment
+Object.defineProperty(exports, "__esModule", { value: true });
 // this is how you comment is TypeScript code fr
 // creat an array
 let assassins = ["Altair", "Ezio", "Conners", "Edward", "Arno", "Jacob", "Bayek", "Basim",];

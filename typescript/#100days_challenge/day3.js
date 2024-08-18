@@ -1,5 +1,6 @@
 "use strict";
 //using math operaters
+Object.defineProperty(exports, "__esModule", { value: true });
 console.log(7.99 + 0.01);
 console.log(69 - 61);
 console.log(88 / 11);

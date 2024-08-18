@@ -1,5 +1,6 @@
 "use strict";
 // Task1 - installation
+Object.defineProperty(exports, "__esModule", { value: true });
 //Node, VS Code and TypeScript installed!
 //Task2 - print a message to variable
 let xyz = "waqas";

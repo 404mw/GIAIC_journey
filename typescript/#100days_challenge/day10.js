@@ -1,5 +1,6 @@
 "use strict";
 // else it practice
+Object.defineProperty(exports, "__esModule", { value: true });
 let agE = 35;
 if (agE <= 4) {
     console.log("Look, a  baby!!!");

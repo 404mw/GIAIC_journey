@@ -1,5 +1,6 @@
 "use strict";
 //if statment
+Object.defineProperty(exports, "__esModule", { value: true });
 let allien = "Red";
 if (allien == "Red") {
     console.log("You got it right");

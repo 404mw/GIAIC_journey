@@ -1,4 +1,5 @@
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 // array lengh
 let guestlist = ["Krate", "Spilph", "Onteo", "Kongen", "beLIEver", "Thrill"];
 console.log("I'm inviting " + guestlist.length + " Idlers to dinner");

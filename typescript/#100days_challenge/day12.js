@@ -1,5 +1,6 @@
 "use strict";
 // loop through an array with custom message
+Object.defineProperty(exports, "__esModule", { value: true });
 // Pizza
 let pizza = ["Mughlai", "Extra Cheese", "Fajita"];
 pizza.forEach(pizza => {

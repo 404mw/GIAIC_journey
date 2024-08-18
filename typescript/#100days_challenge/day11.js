@@ -1,5 +1,6 @@
 "use strict";
 // empty arrays
+Object.defineProperty(exports, "__esModule", { value: true });
 let users = [];
 if (users.length === 0) {
     console.log("We desperately need some users");

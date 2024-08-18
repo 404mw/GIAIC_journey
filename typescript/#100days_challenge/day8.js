@@ -1,5 +1,6 @@
 "use strict";
 // intentional array error
+Object.defineProperty(exports, "__esModule", { value: true });
 let place = ["San Francisco", "Seattle", "Tokyo", "Turkey", "Spain"];
 place[5] = "Copenhagen";
 console.log(place[6]);
