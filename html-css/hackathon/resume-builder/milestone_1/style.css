@@ -5,21 +5,25 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 body{
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+     
 }
 .resumeouter{
-    width: 100%;
+    width: 90%;
+    flex-direction: column;
     display: flex;
     justify-content: center;
-    margin-top: 100px;
-    margin-bottom: 50px;   
+    padding-top: 80px;
+    padding-bottom: 40px;
+     
 }
 .resume{
-    width: 90%;
     display: flex;
+    margin-bottom: 40px;
     border: 2px solid #32394e;
     border-top-left-radius: 40px;
     border-bottom-left-radius: 40px;
@@ -53,7 +57,7 @@ aside{
     align-items: center;
     overflow: hidden;
     position: relative;
-    border: 3px solid orange;
+    border: 5px solid #449197;
 }
 .avatar img{
     width: 90%;
@@ -83,6 +87,7 @@ aside{
 .left .heading{
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
 }
 .heading{
     margin-top: 50px;
@@ -128,15 +133,18 @@ main{
     justify-content: space-between;
     font-weight: bolder;
 }
-.workcont{
-    margin-left: 85px;
+.contact div p{
+    margin-bottom: 5px;
 }
+
+
 .btndiv{
-    width: 90%;
     padding: 2%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
     margin-bottom: 30px;
 }
 .btndiv button{
@@ -159,7 +167,22 @@ main{
         transition: all 0.1s ease-in;
     }
 }
+.rightcont{
+    margin-left: 70px;
+}
+footer{
+    width: 100%;
+    background-color: #32394e;
+    color: white;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
 
+    a{
+        color: #449197;
+        text-decoration: none;
+    }
+}
 
 
 
@@ -170,7 +193,11 @@ main{
 
 
 
-
+@media print{
+    .btndiv,footer{
+        display: none;
+    }
+}
 
 @media (max-width: 786px){
     .resume{
@@ -184,4 +211,12 @@ main{
     main{
         width: 100%;
     }
+    .contact div{
+        flex-direction: column;
+        margin-bottom: 8px;
+    }
+    .rightcont{
+        margin-left: 0;
+    }
+    
 }

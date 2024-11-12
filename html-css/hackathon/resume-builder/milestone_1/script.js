@@ -35,3 +35,7 @@ let conf_btn = document.getElementById('conf_btn');
 conf_btn?.addEventListener('click', () => {
     conf.classList.toggle('tschide');
 });
+let print_btn = document.getElementById('print_btn');
+print_btn?.addEventListener('click', () => {
+    window.print();
+});
