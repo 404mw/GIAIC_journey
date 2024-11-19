@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #32394e;
+}
+form{
+    background-color: rgb(235, 235, 235);
+    width: 50%;
+    border-radius: 40px;
+    padding: 3%;
+    margin: 100px;    
+}
+.formgroup{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 20px;
+    border-bottom: 3px double black;
+}
+h3{
+    align-self: center;
+    margin-top: 20px;
+    margin-bottom: 8px;
+    font-size: x-large;
+    font-weight: 700;
+}
+hr{
+    height: 5px;
+    border-style: solid;
+    border: none;
+    background-color: #449197;
+    border-radius: 20px;
+}
+label{
+    margin-top: 8px;
+    font-weight: bold;
+    display: inline;
+    justify-content: center;
+    flex-direction: column;
+}
+input, textarea, select{
+    border: 2px solid;
+    border-radius: 8px;
+    margin-bottom: 5px;
+    margin-top: 8px;
+    font-size: medium;
+    padding: 5px;
+    overflow: auto;
+
+    &:focus{
+        border: 2px solid #449197;
+        outline: none;
+    }
+}
+#submitbtn{
+    width: 100%;
+    border: none;
+    background-color: #449197;
+    color: #fff;
+    padding: 10px 15px;
+    font-size: 1.5rem;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+
+    &:hover{
+        opacity: 92%;
+    }
+    &:active{
+        transform: scale(0.98);
+    }
+}
+
+
+.upload{
+    display: inline-block;
+    background-color: #449197;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 1.5rem;
+    user-select: none;
+    cursor: pointer;
+
+    &:hover{
+        opacity: 92%;
+    }
+    &:active{
+        transform: scale(0.98);
+    }
+}
+#pic{
+    border: unset;
+    align-self: center;
+}
+
+.star{
+    color: red;
+    display: inline-flex;
+    user-select: none;
+}
+#desc{
+    height: 100px;
+    resize: none;
+}

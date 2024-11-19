@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Form | M.W.</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <form id="resform">
+
+        <div class="formgroup">
+
+            <h3>Name and Contact</h3><hr><br>
+
+            <label for="fname">Full Name:<span class="star">*</span></label>
+            <input type="text" id="fname" maxlength="25" required>
+
+            <label for="desig">Designation:<span class="star">*</span></label>
+            <input type="text" id="desig" maxlength="30" required>
+
+            <label for="desc">Description:<span class="star">*</span></label>
+            <textarea id="desc" maxlength="200" placeholder="A short explanation of you and your experties" cols="5" required></textarea>
+
+            <label for="mail">Email Address:<span class="star">*</span></label>
+            <input type="email" id="mail" maxlength="18" required>
+
+            <label for="phone">Contact Number:<span class="star">*</span></label>
+            <input type="tel" id="phone" maxlength="18" required>
+
+            <label for="web">Website Link:<span class="star">*</span></label>
+            <input type="text" id="web" maxlength="28" placeholder="Kindly keep it short eg: linkedin.com/in/frank.g" required>
+    
+            <label for="location">Location:<span class="star">*</span></label>
+            <input type="text" id="location" maxlength="25" placeholder="State/City of Residence eg: Mongomery, AL" required>
+        
+            <label class="upload" for="pic">Upload a Picture</label>
+            <input type="file" id="pic" accept="image/png, image/jpeg" required >
+        </div>
+
+        <div class="formgroup">
+
+            <h3>Education</h3><hr><br>
+
+            <label for="edutitle1">Degree Title #1:<span class="star">*</span></label>
+            <input type="text" id="edutitle1" maxlength="50" required>
+
+            <label for="uni1">From:<span class="star">*</span></label>
+            <input type="text" id="uni1" maxlength="30" required> <br>
+
+            <label for="edutitle2">Degree Title #2:</label>
+            <input type="text" id="edutitle2" maxlength="50">
+
+            <label for="uni2">From:</label>
+            <input type="text" id="uni2" maxlength="30"> <br>
+
+            <label for="edutitle3">Degree Title #3:</label>
+            <input type="text" id="edutitle3" maxlength="50">
+
+            <label for="uni3">From:</label>
+            <input type="text" id="uni3" maxlength="30"> <br>
+
+        </div>
+
+        <div class="formgroup">
+
+            <h3>Languages</h3><hr><br>
+
+            <label for="lang1">Language Title #1:<span class="star">*</span></label>
+            <input type="text" id="lang1" required maxlength="12">
+
+            <label for="prof1">Proficiency:<span class="star">*</span></label>
+            <select name="lang1" id="prof1">
+                <option value="">Beginner - Basic understanding, can form simple sentences.</option>
+                <option value="">Intermediate - Can handle general conversations and read everyday texts.</option>
+                <option value="">Advanced - Fluent in most situations; able to use the language professionally.</option>
+                <option value="">Native or Bilingual - Fully proficient with complete fluency</option>
+            </select><br>
+
+            <label for="lang2">Language #2:</label>
+            <input type="text" id="lang2" maxlength="12">
+
+            <label for="prof2">Proficiency:</label>
+            <select name="" id="prof2">
+                <option value="">Beginner - Basic understanding, can form simple sentences.</option>
+                <option value="">Intermediate - Can handle general conversations and read everyday texts.</option>
+                <option value="">Advanced - Fluent in most situations; able to use the language professionally.</option>
+                <option value="">Native or Bilingual - Fully proficient with complete fluency</option>
+            </select><br>
+
+            <label for="lang3">Language #3:</label>
+            <input type="text" id="lang3" maxlength="12">
+
+            <label for="prof3">Proficiency:</label>
+            <select name="" id="prof3">
+                <option value="">Beginner - Basic understanding, can form simple sentences.</option>
+                <option value="">Intermediate - Can handle general conversations and read everyday texts.</option>
+                <option value="">Advanced - Fluent in most situations; able to use the language professionally.</option>
+                <option value="">Native or Bilingual - Fully proficient with complete fluency</option>
+            </select><br>
+
+        </div>
+
+        <div class="formgroup">
+
+            <h3>Experties</h3><hr><br>
+
+            <label for="skl1">Skill #1 <span class="star">*</span></label>
+            <input type="text" id="skl1" maxlength="18" required>
+            <label for="skl2">Skill #2 <span class="star">*</span></label>
+            <input type="text" id="skl2" maxlength="18" required>
+            <label for="skl3">Skill #3 <span class="star">*</span></label>
+            <input type="text" id="skl3" maxlength="18" required>
+            <label for="skl4">Skill #4</label>
+            <input type="text" id="skl4" maxlength="18">
+            <label for="skl5">Skill #5</label>
+            <input type="text" id="skl5" maxlength="18">
+            <label for="skl6">Skill #6</label>
+            <input type="text" id="skl6" maxlength="18">
+            <label for="skl7">Skill #7</label>
+            <input type="text" id="skl7" maxlength="18">
+            <label for="skl8">Skill #8</label>
+            <input type="text" id="skl8" maxlength="18">
+            <label for="skl9">Skill #9</label>
+            <input type="text" id="skl9" maxlength="18">
+            <label for="skl10">Skill #10</label>
+            <input type="text" id="skl10" maxlength="18">
+
+        </div>
+
+        <div class="formgroup">
+
+            <h3>Interests and Hobbies</h3><hr><br>
+
+            <label for="int1">Interest #1<span class="star">*</span></label>
+            <input type="text" id="int1" maxlength="18" required>
+            <label for="int2">Interest #2<span class="star">*</span></label>
+            <input type="text" id="int2" maxlength="18" required>
+            <label for="int3">Interest #3<span class="star">*</span></label>
+            <input type="text" id="int3" maxlength="18" required>
+            <label for="int4">Interest #4</label>
+            <input type="text" id="int4" maxlength="18">
+            <label for="int5">Interest #5</label>
+            <input type="text" id="int5" maxlength="18">
+            <label for="int6">Interest #6</label>
+            <input type="text" id="int6" maxlength="18">
+        </div>
+
+        <div class="formgroup">
+
+            <h3>Work Experience</h3><hr><br>
+
+            <label for="curwork">Current Position:<span class="star">*</span></label>
+            <input type="text" id="curwork" maxlength="50" required>
+            <label for="durwork">Duration:<span class="star">*</span></label>
+            <input type="text" id="durwork" placeholder="2015/4 - present" maxlength="18" required>
+            <label style="display: flex;">
+                Milestones and Achievements:
+                <input type="text" id="curworkm1">
+                <input type="text" id="curworkm2">
+                <input type="text" id="curworkm3">
+                <input type="text" id="curworkm4">
+                <input type="text" id="curworkm5">
+            </label>
+
+            <br><br>
+
+            <label for="pastwork">Past Work:</label>
+            <input type="text" id="pastwork" maxlength="50">
+            <label for="durpast">Duration:</label>
+            <input type="text" id="durpast" placeholder="2009/1 - 2015/4"  maxlength="18">
+            <label style="display: flex;">
+                Milestones and Achievements:
+                <input type="text" id="pastworkm1">
+                <input type="text" id="pastworkm2">
+                <input type="text" id="pastworkm3">
+                <input type="text" id="pastworkm4">
+                <input type="text" id="pastworkm5">
+            </label>
+
+        </div>
+
+        <div class="formgroup">
+
+            <h3>Contributions for the Community</h3><hr><br>
+
+            <label for="ccone">Title:</label>
+            <input type="text" id="ccone" maxlength="50">
+
+            <label for="cconeref">Reference</label>
+            <input type="text" id="cconeref" placeholder="Location or Website name where you contributed" maxlength="50">
+
+            <label for="cctwo">Title:</label>
+            <input type="text" id="cctwo" maxlength="50">
+
+            <label for="cctworef">Reference</label>
+            <input type="text" id="cctworef" placeholder="Location or Website name where you contributed" maxlength="50">
+
+            <label for="ccthree">Title:</label>
+            <input type="text" id="ccthree" maxlength="50">
+
+            <label for="ccthreeref">Reference</label>
+            <input type="text" id="ccthreeref" placeholder="Location or Website name where you contributed" maxlength="50">
+
+            <label for="ccfour">Title:</label>
+            <input type="text" id="ccfour" maxlength="50">
+
+            <label for="ccfourref">Reference</label>
+            <input type="text" id="ccfouref" placeholder="Location or Website name where you contributed" maxlength="50">
+
+        </div>        
+
+        <input type="submit" id="submitbtn">
+
+    </form>
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
