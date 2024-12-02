@@ -494,7 +494,7 @@ if(fname){
     uName = fname.toLowerCase().replace(/\s+/g, '_')
 } else{ uName = 'user'}
 
-let baseURL = 'http://127.0.0.1:5500/resume/resume.html'
+let baseURL = 'https://mw404resumebuilder.vercel.app/'
 let uniqueURL = `${baseURL}?/${uName}`
 
 share_btn?.addEventListener('click', () => {
