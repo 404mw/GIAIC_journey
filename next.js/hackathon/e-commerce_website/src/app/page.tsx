@@ -17,11 +17,11 @@ export default function Home() {
 
         <div className=" lg:w-1/2 flex flex-col justify-center pl-24 lg:pt-24 pb-24">
           <h1 className=" text-8xl">Rocket single seater</h1>
-          <a href="" className=" mt-12 text-4xl hover:underline">Shop Now</a>
+          <a href="" className=" mt-12 text-4xl"><span className="border-b-4 border-black pb-3">Shop Now</span></a>
         </div>
 
         <div className=" w-full lg:w-1/2 lg:pb-20">
-          <Image src={'/images/rocket-single-seater.png'} alt="main image" width={'2000'} height={'1000'} />
+          <Image src={'/images/products/rocket-single-seater.png'} alt="main image" width={'2000'} height={'1000'} />
         </div>
 
       </header>
@@ -33,22 +33,22 @@ export default function Home() {
 
       <div className=" w-1/2 m-24 ml-36">
         <div className=" relative">
-          <Image src={'/images/side-table1.png'} alt="" width={605} height={562} />
+          <Image src={'/images/products/side-table1.png'} alt="" width={605} height={562} />
         
           <div className=" absolute bottom-0 left-0 z-10">
             <h1 className=" text-4xl font-bold">Side Table</h1><br />
-            <a href="" className=" text-2xl hover:underline">View More</a>
+            <a href="" className=" text-2xl"><span className=" border-b-4 border-black pb-3 hover:border-[#FBEBB5]">View More</span></a>
           </div>
         </div>
       </div>
 
       <div className=" w-1/2 m-24 mr-36">
         <div className=" relative">
-          <Image src={'/images/side-table2.png'} alt="" width={605} height={562} />
+          <Image src={'/images/products/side-table2.png'} alt="" width={605} height={562} />
         
           <div className=" absolute bottom-0 left-0 z-10">
             <h1 className=" text-4xl font-bold">Side Table</h1><br />
-            <a href="" className=" text-2xl hover:underline">View More</a>
+            <a href="" className=" text-2xl"><span className=" border-b-4 border-black pb-3 hover:border-[#FBEBB5]">View More</span></a>
           </div>
         </div>
       </div>
@@ -68,32 +68,32 @@ export default function Home() {
       <div className=" flex flex-col lg:flex-row justify-between gap-12 mt-8 mb-8">
 
         <div className=" flex flex-col justify-between">
-          <Image className="  m-auto" src={'/images/Trenton-modular-sofa.png'} alt="Product" width={287} height={287}/>
+          <Image className="  m-auto hover:scale-110 transform transition duration-300 pb-4" src={'/images/products/Trenton-modular-sofa.png'} alt="Product" width={287} height={287}/>
           <div><h1>Trenton Modular Sofa-3</h1>
           <h1>Rs. 25,000.00</h1></div>
         </div>
 
         <div className=" flex flex-col justify-between">
-          <Image className="  m-auto" src={'/images/Granite-dining-table-with-dining-chair.png'} alt="Product" width={287} height={287}/>
+          <Image className="  m-auto hover:scale-110 transform transition duration-300 pb-4" src={'/images/products/Granite-dining-table-with-dining-chair.png'} alt="Product" width={287} height={287}/>
           <div><h1>Granite dining table with dining chair</h1>
           <h1>Rs. 25,000.00</h1></div>
         </div>
 
         <div className=" flex flex-col justify-between">
-          <Image className="  m-auto" src={'/images/Outdoor-bar-table-and-stool.png'} alt="Product" width={287} height={287}/>
+          <Image className="  m-auto hover:scale-110 transform transition duration-300 pb-4" src={'/images/products/Outdoor-bar-table-and-stool.png'} alt="Product" width={287} height={287}/>
           <div><h1>Outdoor bar table and stool</h1>
           <h1>Rs. 25,000.00</h1></div>
         </div>
 
         <div className=" flex flex-col justify-between">
-          <Image className="  m-auto" src={'/images/Plain-console-with-teak-mirror.png'} alt="Product" width={287} height={287}/>
+          <Image className="  m-auto hover:scale-110 transform transition duration-300 pb-4" src={'/images/products/Plain-console-with-teak-mirror.png'} alt="Product" width={287} height={287}/>
           <div><h1>Plain console with teak mirror</h1>
           <h1>Rs. 25,000.00</h1></div>
         </div>
 
       </div>
 
-      <h1 className=" text-2xl hover:underline mt-12 mb-20">View More</h1>
+      <h1 className=" text-2xl mt-12 mb-20"><span className=" border-b-4 border-black pb-3 hover:border-[#FBEBB5]">View More</span></h1>
     </section>
 
 
@@ -101,7 +101,7 @@ export default function Home() {
 
     <section className=" flex flex-col-reverse pt-10 lg:flex-row bg-[#FFF9E5]">
 
-      <Image src={"/images/Asgaard-sofa.png"} alt="Product" width={947} height={799} />
+      <Image src={"/images/products/Asgaard-sofa.png"} alt="Product" width={947} height={799} />
 
       <div className=" flex flex-col justify-center items-center gap-5 m-auto">
         <h1 className=" text-2xl font-bold">New Arrivals</h1>
@@ -209,7 +209,7 @@ export default function Home() {
     <section className=" h-[60vh] bg-[url('/images/insta.png')] bg-cover bg-center flex flex-col justify-center items-center gap-5">
       <h1 className=" text-7xl font-bold">Our Instagram</h1>
       <h1 className=" text-xl">Follow our store on Instagram</h1>
-      <Button className=" rounded-t-full rounded-b-full mt-4 p-8 pl-16 pr-16 text-2xl bg-[#F4F4F4]-5 hover:bg-[#F4F4F4]-5 text-black shadow-2xl shadow-gray-600 hover:bg-gray-800/25 hover:text-white">Follow Us</Button>
+      <Button className=" rounded-t-full rounded-b-full mt-4 p-8 pl-16 pr-16 text-2xl bg-[#F4F4F4]-5 hover:bg-[#F4F4F4]-5 text-black shadow-2xl shadow-gray-600 hover:bg-gray-800/25 hover:text-white active:scale-95 transform transition duration-100">Follow Us</Button>
     </section>
 
 
