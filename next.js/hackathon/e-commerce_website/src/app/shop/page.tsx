@@ -31,10 +31,10 @@ export default function Shop(){
 
         <div className=" flex justify-center items-center text-lg gap-5">
             <div className=" flex justify-center items-center gap-4 border-r-2 border-black pr-5">
-                <LuFilter />
+                <LuFilter className=" hover:scale-125" />
                 <h1>Filter</h1>
-                <HiViewGrid />
-                <BsViewList />
+                <HiViewGrid className=" hover:scale-125" />
+                <BsViewList className=" hover:scale-125" />
             </div>
             <h1 className="">Showing 1–16 of 32 results</h1>
         </div>
@@ -156,9 +156,9 @@ export default function Shop(){
     
           <div className=" flex gap-6 m-20">
             <span className=" pt-3 pb-3 pl-6 pr-6 bg-[#FBEBB5] rounded-lg">1</span>
-            <span className=" pt-3 pb-3 pl-6 pr-6 bg-[#FFF9E5] rounded-lg">2</span>
-            <span className=" pt-3 pb-3 pl-6 pr-6 bg-[#FFF9E5] rounded-lg">3</span>
-            <span className=" pt-3 pb-3 pl-6 pr-6 bg-[#FFF9E5] rounded-lg">NEXT</span>
+            <span className=" pt-3 pb-3 pl-6 pr-6 bg-[#FFF9E5] rounded-lg hover:bg-[#FBEBB5]">2</span>
+            <span className=" pt-3 pb-3 pl-6 pr-6 bg-[#FFF9E5] rounded-lg hover:bg-[#FBEBB5]">3</span>
+            <span className=" pt-3 pb-3 pl-6 pr-6 bg-[#FFF9E5] rounded-lg hover:bg-[#FBEBB5]">NEXT</span>
           </div>
     </section>
 
