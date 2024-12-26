@@ -12,6 +12,7 @@ import {
     SheetTrigger,
   } from "@/components/ui/sheet"
 import { useState } from "react";
+import CartSheet from "./cartsheet";
 
 
 export default function Navbar(){
@@ -38,7 +39,6 @@ export default function Navbar(){
                 <FaRegHeart />
                 </a>
         
-        {/* The last link triggers the sheet */}
         <Sheet open={isOpen} onOpenChange={setIsOpen} >
           <SheetTrigger className="hover:scale-125 transform transition duration-100">
             <a href="#" onClick={(e) => {
@@ -52,7 +52,7 @@ export default function Navbar(){
 
           <SheetContent className="w-80 p-6">
             <SheetTitle>Shopping Cart</SheetTitle>
-            <p>Your cart is empty</p>
+            <CartSheet />
 
             {/* Close button */}
             <SheetClose onClick={() => setIsOpen(false)} className="mt-4 text-blue-500">

@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 export default function Quantity() {
-  const [count, setCount] = useState(0);
+  const [count, setCount] = useState(1);
 
   return (
     <>
