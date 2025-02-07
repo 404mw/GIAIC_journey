@@ -1,13 +1,12 @@
-import Image from "next/image";
-import { MdArrowForwardIos } from "react-icons/md";
 import { HiLocationMarker } from "react-icons/hi";
 import { FaPhoneAlt } from "react-icons/fa";
 import { FaClock } from "react-icons/fa";
 
-import Navbar from "../components/navbar";
+import Navbar from "@/components/navbar";
 import { Button } from "@/components/ui/button";
-import Service from "../components/service";
-import Footer from "../components/footer";
+import Service from "@/components/service";
+import Footer from "@/components/footer";
+import Head from "@/components/head";
 
 export default function Contact(){
     return (
@@ -16,35 +15,21 @@ export default function Contact(){
           <Navbar />
         </nav>
 
-        <header className=" h-[50vh] bg-[url('/images/shop_banner.png')] bg-cover bg-center flex flex-col justify-center items-center gap-5 mt-12 mb-12">
-          <Image
-            className=" scale-150 transform"
-            src={"/images/logo.png"}
-            alt="Logo"
-            width={77}
-            height={77}
-          />
-          <h1 className=" text-7xl font-bold">Contact</h1>
-          <div className=" flex justify-center gap-2 items-center text-xl">
-            <h1 className=" font-bold">Home </h1>
-            <MdArrowForwardIos className="" />
-            <h1>Contact</h1>
-          </div>
-        </header>
+        <Head title="Contact"/>
 
         <main className=" flex flex-col justify-center items-center p-2 lg:p-20">
-          <div className=" w-1/2 flex flex-col justify-center items-center text-center gap-5">
-            <h1 className=" text-5xl">Get In Touch With Us</h1>
-            <p className=" text-gray-500">
+          <div className=" w-2/3 lg:w-1/2 flex flex-col justify-center items-center text-center gap-5">
+            <h1 className=" text-xl sm:text-3xl md:text-4xl lg:text-5xl">Get In Touch With Us</h1>
+            <p className=" text-sm md:text-lg text-gray-500">
               For More Information About Our Product & Services. Please Feel
               Free To Drop Us An Email. Our Staff Always Be There To Help You
               Out. Do Not Hesitate!
             </p>
           </div>
 
-          <div className=" w-full flex flex-col lg:flex-row gap-5 p-20 mt-20">
+          <div className=" w-full flex flex-col lg:flex-row gap-5 p-7 sm:p-12 md:p-20 lg:mt-20">
 
-            <div className=" w-full lg:w-1/2 flex flex-col gap-16">
+            <div className=" w-full lg:w-1/2 flex flex-col gap-16 my-20 lg:my-0">
               <div className=" flex flex-row gap-8">
               <HiLocationMarker className=" text-5xl" />
               <div className=" flex flex-col gap-5 lg:pr-48">
@@ -73,7 +58,7 @@ export default function Contact(){
 
             </div>
 
-            <form action="" className=" w-full lg:w-1/2 mt-32 lg:mt-0 flex flex-col gap-5">
+            <form action="" className=" w-full lg:w-1/2 flex flex-col gap-5">
               <label htmlFor="fname">Your Name</label>
               <input className=" border-2 p-5 rounded-lg" type="text" name="" id="fname" placeholder="Abc" minLength={3} required />
 
@@ -98,7 +83,7 @@ export default function Contact(){
                 maxLength={300}
                 required
               ></textarea>
-              <Button className=" w-80 hover:border-black focus:scale-95 transform transition duration-100" variant={"outline"}>Submit</Button>
+              <Button className=" w-full align-center hover:border-black focus:scale-95 transform transition duration-100" variant={"outline"}>Submit</Button>
             </form>
 
           </div>

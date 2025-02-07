@@ -1,17 +1,19 @@
-import Navbar from "@/app/components/navbar";
+import Navbar from "@/components/navbar";
 import Image from "next/image";
 import { FaStar } from "react-icons/fa6";
 import { FaStarHalfAlt, FaFacebook, FaLinkedin, FaTwitter } from "react-icons/fa";
 import { IoIosArrowForward } from "react-icons/io";
 import { Button } from "@/components/ui/button";
 import Link from 'next/link';
-import Quantity from "@/app/components/quantity";
-import Footer from "@/app/components/footer";
+import Quantity from "@/components/quantity";
+import Footer from "@/components/footer";
 
 export default function product(){
     return(<>
     <header>
-        <Navbar />
+        <nav>
+            <Navbar />
+        </nav>
     </header>
 
     <main>
@@ -131,32 +133,32 @@ export default function product(){
               <div className=" flex flex-col lg:flex-row justify-between gap-12 mt-8 mb-8">
         
                 <div className=" flex flex-col justify-between">
-                  <Image className="  m-auto hover:scale-110 transform transition duration-300 pb-4" src={'/images/products/Trenton-modular-sofa.png'} alt="Product" width={287} height={287}/>
+                  <Image className=" cursor-pointer m-auto hover:scale-110 transform transition duration-300 pb-4" src={'/images/products/Trenton-modular-sofa.png'} alt="Product" width={287} height={287}/>
                   <div><h1>Trenton Modular Sofa-3</h1>
                   <h1>Rs. 25,000.00</h1></div>
                 </div>
         
                 <div className=" flex flex-col justify-between">
-                  <Image className="  m-auto hover:scale-110 transform transition duration-300 pb-4" src={'/images/products/Granite-dining-table-with-dining-chair.png'} alt="Product" width={287} height={287}/>
+                  <Image className=" cursor-pointer m-auto hover:scale-110 transform transition duration-300 pb-4" src={'/images/products/Granite-dining-table-with-dining-chair.png'} alt="Product" width={287} height={287}/>
                   <div><h1>Granite dining table with dining chair</h1>
                   <h1>Rs. 25,000.00</h1></div>
                 </div>
         
                 <div className=" flex flex-col justify-between">
-                  <Image className="  m-auto hover:scale-110 transform transition duration-300 pb-4" src={'/images/products/Outdoor-bar-table-and-stool.png'} alt="Product" width={287} height={287}/>
+                  <Image className=" cursor-pointer m-auto hover:scale-110 transform transition duration-300 pb-4" src={'/images/products/Outdoor-bar-table-and-stool.png'} alt="Product" width={287} height={287}/>
                   <div><h1>Outdoor bar table and stool</h1>
                   <h1>Rs. 25,000.00</h1></div>
                 </div>
         
                 <div className=" flex flex-col justify-between">
-                  <Image className="  m-auto hover:scale-110 transform transition duration-300 pb-4" src={'/images/products/Plain-console-with-teak-mirror.png'} alt="Product" width={287} height={287}/>
+                  <Image className=" cursor-pointer m-auto hover:scale-110 transform transition duration-300 pb-4" src={'/images/products/Plain-console-with-teak-mirror.png'} alt="Product" width={287} height={287}/>
                   <div><h1>Plain console with teak mirror</h1>
                   <h1>Rs. 25,000.00</h1></div>
                 </div>
         
               </div>
         
-              <h1 className=" text-2xl mt-12 mb-20"><span className=" border-b-4 border-black pb-3 hover:border-[#FBEBB5]">View More</span></h1>
+              <h1 className=" text-2xl mt-12 mb-20"><span className=" border-b-4 border-black pb-3 hover:border-[#B88E2F] cursor-pointer">View More</span></h1>
             </section>
     </main>
 
